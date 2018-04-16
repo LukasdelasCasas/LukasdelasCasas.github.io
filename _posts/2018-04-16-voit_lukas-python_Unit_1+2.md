@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Finishing Git-Tutorial
+title: Python Unit 1+2 
 image: /img/lukas_voit/Profil_Voit.JPG
 ---
 
