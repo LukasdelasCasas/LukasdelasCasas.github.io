@@ -16,5 +16,5 @@ Confirmation Post and proof of finished mapping homework.
 ![](../img/lukas_voit/Map_USA_04_mapping_proof.JPG)
 
 <ul>
-  <li>Link to my used georeferenced <a href="/files/_US_eastStates_04.points">points</a>.</li>
+  <li>Link to my used georeferenced <a href="/files/_US_eastStates_04_Voit.points">points</a>.</li>
 <ul>
