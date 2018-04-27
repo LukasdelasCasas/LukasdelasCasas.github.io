@@ -9,10 +9,9 @@ Confirmation Post and proof of finished mapping homework.
 ![](../img/lukas_voit/Map_USA_04_mapping_proof_2.JPG)
 
 <ul>
-  <li>Collected coordinates of some <a href="files/Locations_with_coordinates_taken_from_map.csv">locations</a>.</li>
+  <li>Collected coordinates of some <a href="/files/Locations_with_coordinates_taken_from_map.csv">locations</a>.</li>
 </ul>
 
-![](../files/Locations_with_coordinates_taken_from_map.csv)
 
 ![](../img/lukas_voit/Map_USA_04_mapping_proof.JPG)
 
