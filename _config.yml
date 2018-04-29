@@ -1,4 +1,4 @@
-# --- General options --- #
+﻿# --- General options --- #
 
 # url is the full website URL
 # baseurl is the website's URL without the hostname
@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: 070146 KU KU Methodenkurs (2018S) Lukas de las Casas
+title: 070146 KU Methodenkurs (2018S) Lukas de las Casas
 
 # Short description of your site
 description: TNT—Tools & Techniques for Digital Humanities
