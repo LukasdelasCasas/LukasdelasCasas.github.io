@@ -11,7 +11,7 @@ image: /img/lukas_voit/Profil_Voit.JPG
 Used Regular Expression: ```text[?]doc.*.2006.\d\d.\d\d\d\d```
 
 4. I added the missing parts in the link, so the downloadable XML-Version of the newspaper-issue is used by wget.exe. 
-This was necessary else because the normal link on the primary page can´t be used to download the issue. 
+This was necessary, because the given link on the primary page canÂ´t be used to download the issue file. 
 The used regular expression was: ```^ www.perseus.tufts.edu/hopper/dl```
 
 5. Over the command line i used wget to download the xml-version of the articles. 
