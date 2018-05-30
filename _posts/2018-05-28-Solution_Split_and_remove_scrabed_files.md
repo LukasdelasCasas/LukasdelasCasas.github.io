@@ -15,15 +15,14 @@ Most parts of the code were already given, so basically the real question was to
 2. I noticed that i had to find a spot were i could split the issue into the articles. I used the ```<div3 type="article"``` expression to split the files. 
    This expression resulted in a minor problem which i will explain later.
 3. In the next step i tried to use the given ```with open``` expression to access, read the input files and write to the output files.
-4. Included a numeration system ```start = 0```, so that i have a optical clue without opening a data file and see a count of the progress. With every splited article the number increases by one ```start += 1```
-5. Now i tried to include the original file directories and the take the files collected in the directories to work with.
-6. I included a for loop for the reading and spliting of the article and a second loop to remove the xml tags.  
-7. I made the mistake to run it directly on my files without testing it, but could prevent some damage because i copied the input files before. Still it was very difficult 
-   to the delete the mass of processed files, so i had to use commandline with the ```del *.xml``` to do it.
+4. Included a numeration system ```start = 0```, so that i have a optical clue without opening a data file and see a count of the       progress. With every splited article the number increases by one ```start += 1```
+5. Now i tried to include the original file directory and the files collected in the directory.
+6. I included a for loop to read and split each issue into several articles and a second loop to remove the xml tags.  
+7. I made the mistake to run it directly on my files without testing it on a small sample of the files, but could prevent some damage,     because i copied the input files before. Still it was very difficult to the delete the mass of processed files, so i had to use commandline with the ```del *.xml``` to do it.
 8. At the end my first script worked with the exception that my used expression to split it was not a good choice. 
-   It removed the ```<div3 type="article"``` from the file. But when that happend the regular expression to remove the tags wasn´t working anymore on the rest of the tag. 
-   So in the first line of any article file was the rest of  the used tag to split the article. 
-9. I wrote a second script with the expression  ```n=.*sample="complete">``` to remove the rest of the tag from the article. 
+   It removed the ```<div3 type="article"``` from every file. After that the regular expression to remove the tags wasn´t working on the  rest of the tag. 
+   So in the first line of any article file was the rest of the used tag to split the article. 
+9. I wrote a second script with the expression  ```n=.*sample="complete">``` to remove the rest of the tag from the articles. 
    In the end it would be more economic to only use one script with a regular expression that matches the complete ```<div3 ``` tag, but i still got the results.
 
 First Script: 
