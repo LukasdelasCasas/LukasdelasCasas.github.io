@@ -32,6 +32,7 @@ So several times python just stored the data on one line.
 
     ```
     var = "\t".join([itemID,dateVar,unitType,header,text]) + "\n"
+    list.append(var)
     ```
 
 4. I added a for loop to write the collected and sorted data in a .tsv file. I also chaneged the code in the open function, so that it gets stored in a .tsv and not in a .txt file.
