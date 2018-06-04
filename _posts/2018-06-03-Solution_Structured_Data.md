@@ -13,44 +13,44 @@ Most parts of the code were already given, so basically the real question was ed
 1. At first i added my absolute path directions and included a list. The list should later collect the structured data results and store them in it.
 2. I added the direction of the downloaded input files. 
 
-```
-import re, os
+    ```
+    import re, os
 
-source = os.path.abspath('Perseus_Test_Texte')
-target = os.path.abspath('Output_ordner')
+    source = os.path.abspath('Perseus_Test_Texte')
+    target = os.path.abspath('Output_ordner')
 
-lof = os.listdir('Perseus_Test_Texte')
-counter = 0 # general counter to keep track of the progress
+    lof = os.listdir('Perseus_Test_Texte')
+    counter = 0 # general counter to keep track of the progress
 
-# list to include data in variable
-list = []
-```
+    # list to include data in variable
+    list = []
+    ```
 
 3. I stored the variable of the processed data files in the list. I also changed the variable from "\n" = new line to "\t" = tab, so that the entries of one splitted issue parts are stored in separat lines. 
 A issue was that i at first forgot to tell python to store each item on a different line with ``` +"/n"```. 
 So several times python just stored the data on one line.
 
-```
-var = "\t".join([itemID,dateVar,unitType,header,text]) + "\n"
-```
+    ```
+    var = "\t".join([itemID,dateVar,unitType,header,text]) + "\n"
+    ```
 
 4. I added a for loop to write the collected and sorted data in a .tsv file. I also chaneged the code in the open function, so that it gets stored in a .tsv and not in a .txt file.
 Problem was that a for loop is necessary to write the in a list collected data into a file as write function does not accept lists but only 
 strings. I tried to work around that by using ```str(list)``` as an input argument in the write function, but as a result i only got the total data in one line. Erica than gave me the hint to use a loop 
 to solve this problem. So i finally got the the collected stuctured entries and metadata of the issues on separat lines. 
 
-```
-for item in list:
+    ```
+    for item in list:
         f9.write(item)
-```
+    ```
 
 5. At last i out commanded the print Header line, because it was slowing down my running script.
 
-```
-# print("\nNo header found!\n")
-```
+    ```
+    # print("\nNo header found!\n")
+    ```
 
-The full script:
+6. The full script:
 
 ```
 import re, os
