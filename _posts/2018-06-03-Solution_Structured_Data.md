@@ -111,7 +111,7 @@ for f in lof:
                 text = "#TEXT: " + text
 
                 # creating a text variable with each entry on a new line
-                var = "\n".join([itemID,dateVar,unitType,header,text]) + "\n"
+                var = "\t".join([itemID,dateVar,unitType,header,text]) + "\n"
                 #input(var)
                 # appending variable to list
                 list.append(var)
