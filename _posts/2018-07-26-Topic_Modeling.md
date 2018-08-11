@@ -57,7 +57,7 @@ Topic 40 Nr.1 (Death Notices):
 Topic 30 Nr. 30 (Death Notices):
 ![](../img/lukas_voit/tm30_A20_50_iter500_Max10_Topic_30.png)
 
-This results can be matched with those of Rob Nelson’s Mining the Dispatch through use of the predictive keywords. In this case my results can be compaired with the topic _"death notices"_.
+This results can be matched with those of Rob Nelsonâ€™s Mining the Dispatch through use of the predictive keywords. In this case my results can be compaired with the topic _"death notices"_.
 The graph of Nelson is partly identical with my graphs. The slight differences can be explained through the notion that Nelson is using a higher number of predictive words -24 to be exactly. 
 
 I came to the same conclusion for several other topics. For example the Topic Trade of Nelsons Dispatch is matching both the graphs from my two runs. 
@@ -136,8 +136,8 @@ Topic 30 Nr. 29 (Clothing Ads):
 
 
 
-Of course there are also visualisations created by the R-script which don´t match as perfect as the examples shown above. 
-In this examples Nelson Dispatch can´t be really compaired and mostly only partly match my results.
+Of course there are also visualisations created by the R-script which donÂ´t match as perfect as the examples shown above. 
+In this examples Nelson Dispatch canÂ´t be really compaired and mostly only partly match my results.
 
 This can be said for the following manualy matched topics:
 
@@ -147,7 +147,7 @@ Topic 40 Nr.2 (Trade):
 Topic 30 Nr. 20 (Trade):
 ![](../img/lukas_voit/tm30_A20_50_iter500_Max10_Topic_20.png)
 
-- this Topics:
+This Topics:
 
 Topic 40 Nr.14 (Confederate States):
 ![](../img/lukas_voit/tm40_A20_50_iter500_Max10_Topic_14.png)
@@ -156,21 +156,21 @@ Topic 30 Nr. 8 (Confederate States):
 ![](../img/lukas_voit/tm30_A20_50_iter500_Max10_Topic_8.png)
 
 
-- this Topic:
+This Topic:
 Topic 40 Nr.34 (Government):
 ![](../img/lukas_voit/tm40_A20_50_iter500_Max10_Topic_34.png)
 
 Topic 30 Nr. 6 (Government):
 ![](../img/lukas_voit/tm30_A20_50_iter500_Max10_Topic_6.png)
 
-- this Topic:
+This Topic:
 Topic 40 Nr.16 (Legislature):
 ![](../img/lukas_voit/tm40_A20_50_iter500_Max10_Topic_16.png)
 
 Topic 30 Nr. 18 (Legislature):
 ![](../img/lukas_voit/tm30_A20_50_iter500_Max10_Topic_18.png)
 
-- No resembles with Nelsons Dispatch:
+No resembles with Nelsons Dispatch:
 Topic 40 Nr.38:
 ![](../img/lukas_voit/tm40_A20_50_iter500_Max10_Topic_38.png)
 
@@ -179,7 +179,7 @@ Topic 30 Nr. 3:
 
 
 
-This Topic doesn´t match any of Nelsons results and my own visualisations differ from each other:
+This Topic doesnÂ´t match any of Nelsons results and my own visualisations differ from each other:
 Topic 40 Nr.35 :
 ![](../img/lukas_voit/tm40_A20_50_iter500_Max10_Topic_35.png)
 
@@ -187,21 +187,21 @@ Topic 30 Nr. 19 (Legislature):
 ![](../img/lukas_voit/tm30_A20_50_iter500_Max10_Topic_19.png)
 
 
-Those two don´t  really match each other, but the Nr. 40/ 4 shows similarities with the dispatch of Nelson:
+Those two donÂ´t  really match each other, but the Nr. 40/ 4 shows similarities with the dispatch of Nelson:
 Topic 40 Nr.4 (Legislature):
 ![](../img/lukas_voit/tm40_A20_50_iter500_Max10_Topic_4.png)
 
 Topic 30 Nr. 12 (Legislature):
 ![](../img/lukas_voit/tm30_A20_50_iter500_Max10_Topic_12.png)
 
--Same can be accounted for Nr. 40/19:
+Same can be accounted for Nr. 40/19:
 Topic 40 Nr.19 (European News):
 ![](../img/lukas_voit/tm40_A20_50_iter500_Max10_Topic_19.png)
 
 Topic 30 Nr. 1 (European News):
 ![](../img/lukas_voit/tm30_A20_50_iter500_Max10_Topic_1.png)
 
-- Also can be said for Nr. 40/23, which is more comparable with Nelson:
+Same issue is accountable for Nr. 40/23, which is more comparable with Nelson:
 
 Topic 40 Nr.23 (Groceries):
 ![](../img/lukas_voit/tm40_A20_50_iter500_Max10_Topic_23.png)
@@ -235,7 +235,7 @@ Topic 30 Nr. 14 (For hire and wanted ads):
 ![](../img/lukas_voit/tm30_A20_50_iter500_Max10_Topic_14.png)
 
 
-I couldn´t match the following results as the predictive keywords differ to far from another:
+I couldnÂ´t match the following results as the predictive keywords differ to far from another:
 
 ![](../img/lukas_voit/tm40_A20_50_iter500_Max10_Topic_12.png)
 
@@ -299,10 +299,10 @@ I couldn´t match the following results as the predictive keywords differ to far 
 ![](../img/lukas_voit/tm40_A20_50_iter500_Max10_Topic_39.png)
 
 
-Moreover i cound´t recreate some topics, which i belive is caused by the low number of keywords. This can be observed on some of Nelsons Topics.
-For example the topics Weather, Humor and Religion aren´t matched by my visualisations. 
+Moreover i coundÂ´t recreate some topics, which i belive is caused by the low number of keywords. This can be observed on some of Nelsons Topics.
+For example the topics Weather, Humor and Religion arenÂ´t matched by my visualisations. 
 
 As a final observation i can note that in general -iin my opinion- there is not a big difference between 30 and 40 topics.
-Clearly it has an influence as over 10 topics aren´t created and further a higher number of topics matches Nelsons topics even more.
+Clearly it has an influence as over 10 topics arenÂ´t created and further a higher number of topics matches Nelsons topics even more.
 This can be explained with the small number of keywords used in my run. On the contrary Nelson altered the number by nine to 24, which garanties a better result as long as the number is not to high.
 Same can be said about a low number of keywords which only partially can creat a valid result as it can not fully match every article. Furthermore it can be difficult to distinguish between topics. 
