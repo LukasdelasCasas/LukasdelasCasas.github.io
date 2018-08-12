@@ -26,7 +26,7 @@ Most parts of the code were already given, so basically the real question was to
    In the end it would be more economic to only use one script with a regular expression that matches the complete ```<div3 ``` tag, but i still got the results.
 
 First Script: 
-```
+```Python
 # Use of Regular-expression Module and os Module to open and work with directories
 import os
 import re
@@ -71,8 +71,9 @@ for fileName in org_FileNames:
     file1.close()
 ```
 
-Second Script to remove the splited <div3- Tag:
-```
+Second Script to remove the splited ```<div3-``` Tag:
+
+```Python
 import os
 import re
 

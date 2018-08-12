@@ -1,4 +1,5 @@
-﻿---
+﻿--
+-
 layout: post
 title: Python Script to structure collected data
 image: /img/lukas_voit/Profil_Voit.JPG
@@ -13,7 +14,7 @@ Most parts of the code were already given, so basically the real question was ed
 1. At first i added my absolute path directions and included a list. The list should later collect the structured data results and store them in it.
 2. I added the direction of the downloaded input files. 
 
-    ```
+    ```Python
     import re, os
 
     source = os.path.abspath('Perseus_Test_Texte')
@@ -30,7 +31,7 @@ Most parts of the code were already given, so basically the real question was ed
 A issue was that i at first forgot to tell python to store each item on a different line with ``` +"/n"```. 
 So several times python just stored the data on one line.
 
-    ```
+    ```Python
     var = "\t".join([itemID,dateVar,unitType,header,text]) + "\n"
     list.append(var)
     ```
@@ -40,20 +41,20 @@ Problem was that a for loop is necessary to write the in a list collected data i
 strings. I tried to work around that by using ```str(list)``` as an input argument in the write function, but as a result i only got the total data in one line. Erica than gave me the hint to use a loop 
 to solve this problem. So i finally got the the collected stuctured entries and metadata of the issues on separat lines. 
 
-    ```
+    ```Python
     for item in list:
         f9.write(item)
     ```
 
 5. At last i out commanded the print Header line, because it was slowing down my running script.
 
-    ```
+    ```Python
     # print("\nNo header found!\n")
     ```
 
 6. The full script:
 
-```
+```Python
 import re, os
 
 source = os.path.abspath('Perseus_Test_Texte')
@@ -128,3 +129,15 @@ with open(target + "/" + "total_data_structured" +".tsv", "w", encoding="utf8") 
         if counter % 100 == 0:
             print(counter)
 ```
+
+As an feedback from my professor i got the advice to use this code snippids instead of 
+mine as these can guarantee that all items from the dispatch are saved and not only the last file.
+
+```Python
+results = "\n".join(list)
+```
+
+```Python
+with open(target + "/" + "total_data_structured" +".tsv", "w", encoding="utf8") as f9:
+    f9.write(results)
+```    
