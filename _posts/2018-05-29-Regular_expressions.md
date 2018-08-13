@@ -6,7 +6,7 @@ image: /img/lukas_voit/Profil_Voit.JPG
 
 Western:
 
-I decided only to do the western part as i´m completly lost with the arabic alphabet.
+I decided only to do the western part as iÂ´m completly lost with the arabic alphabet.
 
 Part 1:
 [e]|ate?(s|n)?(ing)?(ry)?r?
@@ -23,10 +23,10 @@ Conversion 1:
 Leon Askin
 
 2. Austrian Cities
-Vienna|Graz|Linz|Salzburg|Innsbruck|Klagenfurt|Villach|Wels|Sankt Pölten|Dornbirn|Wiener Neustadt|Steyr|Feldkirch|Bregenz|Leonding|Klosterneuburg|Baden bei Wien|Wolfsberg|Leoben|Krems|Traun|Amstetten|Lustenau|Kapfenberg|Mödling|Hallein|Kufstein|Traiskirchen|Schwechat|Braunau am Inn|Stockerau|Saalfelden|Ansfelden|Tulln|Hohenems|Spittal an der Drau|Telfs|Ternitz|Perchtoldsdorf|Feldkirchen|Bludenz|Bad Ischl|Eisenstadt|Schwaz|Hall in Tirol|Gmunden|Wörgl|Wals-Siezenheim|Marchtrenk|Bruck an der Mur|Sankt Veit an der Glan|Korneuburg|Neunkirchen|Hard|Vöcklabruck|Lienz|Rankweil|Hollabrunn|Enns|Brunn am Gebirge|Ried im Innkreis|Bad Vöslau|Waidhofen|Knittelfeld|Trofaiach|Mistelbach|Zwettl|Völkermarkt|Götzis|Sankt Johann im Pongau|Gänserndorf|Gerasdorf bei Wien|Ebreichsdorf|Bischofshofen|Groß-Enzersdorf|Seekirchen am Wallersee|Sankt Andrä
+Vienna|Graz|Linz|Salzburg|Innsbruck|Klagenfurt|Villach|Wels|Sankt PÃ¶lten|Dornbirn|Wiener Neustadt|Steyr|Feldkirch|Bregenz|Leonding|Klosterneuburg|Baden bei Wien|Wolfsberg|Leoben|Krems|Traun|Amstetten|Lustenau|Kapfenberg|MÃ¶dling|Hallein|Kufstein|Traiskirchen|Schwechat|Braunau am Inn|Stockerau|Saalfelden|Ansfelden|Tulln|Hohenems|Spittal an der Drau|Telfs|Ternitz|Perchtoldsdorf|Feldkirchen|Bludenz|Bad Ischl|Eisenstadt|Schwaz|Hall in Tirol|Gmunden|WÃ¶rgl|Wals-Siezenheim|Marchtrenk|Bruck an der Mur|Sankt Veit an der Glan|Korneuburg|Neunkirchen|Hard|VÃ¶cklabruck|Lienz|Rankweil|Hollabrunn|Enns|Brunn am Gebirge|Ried im Innkreis|Bad VÃ¶slau|Waidhofen|Knittelfeld|Trofaiach|Mistelbach|Zwettl|VÃ¶lkermarkt|GÃ¶tzis|Sankt Johann im Pongau|GÃ¤nserndorf|Gerasdorf bei Wien|Ebreichsdorf|Bischofshofen|GroÃŸ-Enzersdorf|Seekirchen am Wallersee|Sankt AndrÃ¤
 
 
 3. ([^,]([\w ]*))(?=( \(Lower Austria\)))
 
-   ([^,]([\w ]*))(?=( \(Salzburg\)))|(Wals-Siezenheim)
+([^,]([\w ]*))(?=( \(Salzburg\)))|(Wals-Siezenheim)
 
