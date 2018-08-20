@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Social Network Analysis Part (1)
 image: /img/lukas_voit/Profil_Voit.JPG
@@ -150,3 +150,13 @@ Only Articles:
 Complete places dispatch:
 ![](../img/lukas_voit/Network_places_complete.png)
 
+#Update (20.08.2018):
+
+I at least got the right format for my coordinates in my analyzed last issue from my dispatch. So i could georeference the locations and can give a small peek how it could work with a bigger data sample, but i still couldn´t fix my memory issue. 
+
+![](../img/lukas_voit/Graph_with_geo_layout.png)
+
+I also tried to combine the Geo_layout-Plugin with the Map-of-Countries-Plug-in. This Plug-In can add a map to the the Gephi working backround.
+Normaly those two should match and as a result my edges should be correctly georeferenced on the map, but as can be seen here i still have some work to do.
+
+![](../img/lukas_voit/Graph_map_of_countries.png)
