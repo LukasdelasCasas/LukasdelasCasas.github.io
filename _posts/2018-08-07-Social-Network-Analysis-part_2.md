@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title: Social Network Analysis Part (1)
+title: Social Network Analysis Part (2)
 image: /img/lukas_voit/Profil_Voit.JPG
 ---
 

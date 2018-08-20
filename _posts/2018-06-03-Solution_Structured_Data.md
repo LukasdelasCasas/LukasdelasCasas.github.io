@@ -1,5 +1,4 @@
-﻿--
--
+﻿---
 layout: post
 title: Python Script to structure collected data
 image: /img/lukas_voit/Profil_Voit.JPG
