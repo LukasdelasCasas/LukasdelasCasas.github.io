@@ -4,7 +4,7 @@ title: Social Network Analysis Part (1)
 image: /img/lukas_voit/Profil_Voit.JPG
 ---
 
-The first part of our last homework was to built a network based on people from the dispatch. For this task i adopted the script provided by erika as mine wasn´t fully working.
+The first part of our last homework was to built a network based on people from the dispatch. For this task i adopted the script provided by erika as mine wasn´t fully working. I used this code:
 
 
 ```Python
